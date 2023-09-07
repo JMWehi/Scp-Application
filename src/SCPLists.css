@@ -1,0 +1,73 @@
+
+.card-container {
+  margin-top: 20px;
+  padding: 2px;
+  height: 300px; 
+}
+
+.card-img {
+  max-height: 200px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 0.875rem;
+}
+
+.subject-files-btn {
+  background-color: #6f08ab;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.subject-files-btn:hover {
+  background-color: #471188;
+}
+/* Header.css */
+.header {
+  background-image: url('https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2019/11/SCP-Ccard-Wiki-01-e1573928853815.png?resize=1000%2C600&ssl=1'); /* Adjust the path as needed */
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px; /* Adjust the height as needed */
+  position: relative; /* Ensure relative positioning for children */
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  position: absolute; /* Position the navbar inside the header */
+  bottom: 0; /* Position the navbar at the bottom of the header */
+  width: 100%; /* Make the navbar span the entire header */
+  display: flex; /* Use flexbox */
+  justify-content: flex-start; /* Align items to the start (left) */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  
+}
+
+.navbar li {
+  margin-right: 20px; /* Adjust spacing between buttons */
+  margin-left: 5px;
+  
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+  
+  

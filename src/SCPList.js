@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import scpData from './scpData.json';
-import './SCPLists.css'; // Import your CSS file
+import './SCPLists.css'; 
 
 const SCPCard = ({ scp }) => {
-  // Construct the image URL based on the 'image' property in the SCP data
+
   const imageUrl = `/images${scp.image}`;
 
   return (
@@ -15,7 +15,6 @@ const SCPCard = ({ scp }) => {
           <h5 className="card-title">{scp.name}</h5>
           <p className="card-text card-description">{scp.shortDescription}</p>
         </div>
-        {/* Position the "View Details" button at the bottom */}
         <div className="card-footer position-absolute bottom-0 w-100">
           <Link to={`/scp/${scp.id}`} className="btn btn-primary subject-files-btn w-100">
             Subject Files

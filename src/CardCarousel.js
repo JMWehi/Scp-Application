@@ -82,7 +82,7 @@ const CardCarousel = ({ images }) => {
    <div className="carousel-images">
       <AnimatePresence>
          <Carousel
-            showArrows={false} // Adjust carousel settings as needed
+            showArrows={false} 
             selectedItem={currentIndex}
             axis="horizontal"
             showStatus={false}

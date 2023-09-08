@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 
 
 const Header = () => {
@@ -12,13 +12,13 @@ const Header = () => {
         <header className = "header">
           <nav className = "navbar">
             <ul>
-            {/* Apply the common button style */}
+
             <Link to="/" className="common-button">
               Home
             </Link>
             </ul>
             <ul>
-            {/* Apply the common button style */}
+
             <Link to="/carousel" className="common-button">
               Carousel
             </Link>

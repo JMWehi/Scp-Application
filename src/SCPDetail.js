@@ -5,7 +5,6 @@ import './App.css'
 const SCPDetail = ({ scpData }) => {
   const { id } = useParams();
 
-  // Find the SCP object with a matching ID in scpData
   const scp = scpData.find((scp) => scp.id === id);
 
   if (!scp) {

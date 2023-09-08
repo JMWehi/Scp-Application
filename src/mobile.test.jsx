@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-fixture('Mobile UI Tests').page('http://localhost:3000'); // Update the URL as needed
+fixture('Mobile UI Tests').page('http://localhost:3000');
 
 test('Mobile navigation test', async t => {
   const scpLink = Selector('a').withText('SCP-001: The Scarlet King');
